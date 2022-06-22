@@ -208,6 +208,7 @@
 --     INNER JOIN current_emp AS ce
 --         ON (dm.emp_no = ce.emp_no);
 
+-- retirees per dept
 -- SELECT ce.emp_no,
 -- 	ce.first_name,
 -- 	ce.last_name,
@@ -218,3 +219,20 @@
 -- ON (ce.emp_no = de.emp_no)
 -- INNER JOIN departments AS d
 -- ON (de.dept_no = d.dept_no);
+
+-- Create list of retirees for sales dept
+-- SELECT emp_no, 
+-- 	first_name, 
+-- 	last_name, 
+-- 	dept_name
+-- INTO sales_dept_retirees
+-- FROM dept_info
+-- WHERE dept_name = 'Sales';
+
+-- SELECT emp_no, 
+-- 	first_name, 
+-- 	last_name, 
+-- 	dept_name
+-- INTO sales_development_mentors
+-- FROM dept_info
+-- WHERE dept_name IN ('Sales', 'Development');
