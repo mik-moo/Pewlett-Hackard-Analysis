@@ -46,7 +46,7 @@ Additional analysis was done and added to Employee_Database_challenge.sql to see
        - A full list of these candidates can be found in the Data folder as mgmt_mentor_elig_56_65.csv 
      
 
-## Summary:
+## Summary
 
 There are 72,458 employees retiring: 
 
