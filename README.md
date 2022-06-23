@@ -26,14 +26,25 @@ The number of retiring employees is:
 
 ![](Images/mentoring_titles.png)
 
-## Analysis
+## Additional Analysis
 
-The written analysis has the following:
+An additional query was included in the results section and added to the Employee_Database_challenge.sql file.  This query was performed to analyze the title break down for the mentorship program.  These results were compared to the retiring titles in an attempt to discover "holes" where additional training may be needed for the promoted employees or new hires.  Based on this analysis, it was noted that Managers did not have anyone available for mentoring as those retirees left the company.
 
+Additional analysis was done to see if a possible solution could be reached:
 
-Results:
+- Determine if there are mentors availble for Managers.
+  - consider a retiring employee that may wish to stay on with the company part time; 2 are identified
+  - consider a current employee that is in the next round of the "close to retirement" group
+     - one year younger did not return any managers, so this option will not be feasible
+     - one year older returned 1 candidate 
+     
+  ![](Images/mentor_elig_64.png)
+  
+  - increase the age (birth date) window for the mentorship program
+     - if increased for the date range between 1956 and 1964, 18 Managers are identified that may be good candidates for mentors
+     - if adjusted to a younger employee window (1966-1970), no managers are identified
 
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-Summary:
+## Summary:
+
 
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
