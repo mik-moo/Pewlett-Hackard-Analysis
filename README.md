@@ -15,22 +15,19 @@ The number of retiring employees is:
   
  ![](Images/retiring_titles.png)
  
- A full list of all retiring employees is available in the Data folder as unique_titles.csv and includes 72,458 employees. 
+ - A full list of all retiring employees is available in the Data folder as unique_titles.csv and includes 72,458 employees. 
 
 ### Mentorship Eligible Employees
  
 - There are 1,549 employees eligible for the mentorship program. 
   - A full list of mentor eligible employees is available in the Data folder as mentorship_eligibility.csv.
   
-- A breakdown of mentoring titles shows a variety of titles represented in the program. 
+- An additional breakdown analysis of mentoring titles shows a variety of titles represented in the program. 
 
 ![](Images/mentoring_titles.png)
 
+## Analysis
 
-
-
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
 The written analysis has the following:
 
 
